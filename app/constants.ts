@@ -1,5 +1,5 @@
 export const SUPPORTED_TOKENS: {
-  [key: string]: string;
+  [key: string]: `${string}`;
 } = {
   DEGEN: "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
   ETH: "0x4200000000000000000000000000000000000006",
