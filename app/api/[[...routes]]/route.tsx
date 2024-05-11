@@ -471,7 +471,7 @@ app.frame("/success/:type/:id", async (c) => {
     ),
     intents: [
       // eslint-disable-next-line react/jsx-key
-      <Button.Redirect location={`siddesh.xyz`}>
+      <Button.Redirect location={`https://degen-bets.vercel.app/`}>
         Visit Degen Bet
       </Button.Redirect>,
     ],
