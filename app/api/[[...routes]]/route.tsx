@@ -278,7 +278,7 @@ app.transaction("/bet/:type/:id", async (c) => {
       "0x95247C745dEFCc78F68f82A3A92b1cD2061DF229",
       parseEther(perBetAmount.toString() as `0x${string}`),
     ],
-    to: SUPPORTED_TOKENS.DEGEN,
+    to: SUPPORTED_TOKENS.DEGEN as `0x${string}`,
   });
 });
 
