@@ -292,8 +292,8 @@ app.frame("/success/:type/:id", async (c) => {
   );
 
   const {frameData} = c;
-  const {fid} = frameData;
 
+  const fid = frameData?.fid ?? "0";
   bet.totalBetAmount += 5;
   if (type === "yes") {
     bet.buyers.push(fid);
